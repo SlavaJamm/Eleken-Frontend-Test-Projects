@@ -1,0 +1,400 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-weight: 600;
+	color: #999999;
+	min-width: 1440px;
+	font-family: 'Lato', sans-serif;
+}
+/* 			TOP MENU   		*/
+.top_menu_wrap{
+	border-bottom: 1px solid #cfcfcf;
+	margin-top: 1px;
+	padding-bottom: 3px;
+}
+.top_menu_wrap a {
+	text-decoration: none;
+	color: #b4b4b4;
+}
+/*top left_menu*/
+.top_left_wrap{
+	margin-left: 149px;
+	font-size: 12px;
+	letter-spacing: 0.9px;
+	font-weight: 400;
+	display: inline-block;
+}
+.top_left_wrap ul{
+	padding: 0;
+}
+.top_left_wrap ul li{
+	display: inline-block;
+	margin-right: 28px;
+}
+.top_left_wrap ul li.help{
+	margin-left: -3px;
+}
+/*top right menu*/
+.top_right_wrap {
+	font-size: 12px;
+	float: right;
+	letter-spacing: 0.7px;
+	font-weight: 300;
+	margin-right: 150px;
+	padding: 0;
+
+}
+.top_right_wrap ul li {
+	display: inline-block;
+}
+.dropdown-left{
+	margin-right: 17px;
+	margin-left: 9px;
+}
+.dropdown-right-leng{
+	padding-left: 20px;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	border-left: 1px solid #cfcfcf;
+}
+.dropdown-right{
+	margin-left: 5px;
+}
+/*			MAIN MENU 		*/
+.main_menu_wrap{
+	margin-top: 20px;
+	display: block;
+	padding-bottom: 23px;
+	border-bottom: 1px solid #cfcfcf;
+}
+/*logo*/
+.logo_wrap{
+	display: inline-block;
+	margin-left: 150px;
+}
+.logo_wrap a{
+	font-family: 'GFS Didot', serif;
+	font-size: 50px;
+	text-decoration: none;
+	color: #333333;
+	display: inline-block;
+	font-weight: 600;
+}
+.logo_wrap a .logo_symbol{
+	font-size: 29px;
+	display: inline-block;
+}
+/*navigation*/
+.navigation_wrap{
+	display: inline-block;
+	margin-bottom: 9px;
+	margin-left: 188px;
+}
+.navigation_wrap ul {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.navigation_wrap ul li{
+	display: inline-block;
+	margin-right: 50px;
+}
+.navigation_wrap ul li a{
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	color: #999999;
+	padding-bottom: 5px;
+	letter-spacing: 1.3px;
+}
+.navigation_wrap ul li a:hover{
+	border-bottom: 1px solid #238cdc;
+	color: #333333;
+}
+.navigation_wrap ul li a.active_nav{
+	border-bottom: 1px solid #238cdc;
+	color: #333333;
+}
+.navigation_wrap ul li a.sale_button{
+	margin-right: 16px;
+	color: #fc411d;
+}
+/*Bag*/
+.bag_wrap{
+	display: inline-block;
+	margin-bottom: 7.5px;
+	margin-left: 60px;
+}
+.bag_wrap ul {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.bag_wrap ul li{
+	display: inline-block;
+}
+.bag_wrap ul li a{
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	color: #999999;
+	letter-spacing: 1.3px;
+}
+.bag_wrap ul li a.bag_pcs{
+	border: 2px solid #1f86da;
+	border-radius: 50%;
+	margin-left: 12px;
+	margin-right: 17px;
+	padding: 16px 18px 15px 18px;
+}
+/*			CATALOG 		*/
+.catalog_title_wrap{
+	margin-top: 81px;
+}
+.catalog_title_wrap h1 {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 57px;
+	color: #333333;
+	text-align: center;
+	font-weight: 300;
+}
+/*			Product navigation 		*/
+.product_navigation_wrap {
+	margin-top: 50px;
+}
+.product_navigation_wrap ul{
+	padding: 0;
+}
+.product_navigation_wrap ul li{
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.product_navigation_wrap ul li:first-child{
+	margin-left: 408px;
+}
+.product_navigation_wrap ul li.tshirts_button{
+	margin-left: 47px;
+}
+.product_navigation_wrap ul li.sweaters_button{
+	margin-left: 45px;
+}
+.product_navigation_wrap ul li.shorts_button{
+	margin-left: 45px;
+}
+.product_navigation_wrap ul li.jackets_button{
+	margin-left: 47px;
+}
+.product_navigation_wrap ul li:last-child{
+	margin-left: 47px;
+}
+.product_navigation_wrap ul li a.active_nav{
+	border-bottom: 2px solid #238cdc;
+	color: #333333;
+}
+.product_navigation_wrap ul li a{
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #999999;
+	letter-spacing: 1.3px;
+}
+.product_navigation_wrap ul li a:hover{
+	border-bottom: 2px solid #238cdc;
+	color: #333333;
+}
+/*			Product table 		*/
+.product_table_wrap{
+	margin: 40px 93px 0 150px;
+}
+.product_table_wrap .product{
+	display: inline-block;
+	margin-right: 27px;
+}
+.product_table_wrap .product .p4{
+	margin-right: 0px;
+}
+.product_table_wrap .product.p1 .main_img{
+	background: url(../img/product_table/1.png);
+	height: 336px;
+	width: 263px;
+}
+.product_table_wrap .product.p2 .main_img{
+	background: url(../img/product_table/2.png);
+	height: 336px;
+	width: 263px;
+}
+.product_table_wrap .product.p3 .main_img{
+	background: url(../img/product_table/3.png);
+	height: 336px;
+	width: 263px;
+}
+.product_table_wrap .product.p4 .main_img{
+	background: url(../img/product_table/4.png);
+	height: 336px;
+	width: 263px;
+}
+.product_table_wrap .product.p5 .main_img{
+	background: url(../img/product_table/5.png);
+	height: 336px;
+	width: 263px;
+}
+.product_table_wrap .product.p6 .main_img{
+	background: url(../img/product_table/6.png);
+	height: 336px;
+	width: 263px;
+}
+.product_table_wrap .product.p7 .main_img{
+	background: url(../img/product_table/7.png);
+	height: 336px;
+	width: 263px;
+}
+.product_table_wrap .product.p8 .main_img{
+	background: url(../img/product_table/8.png);
+	height: 336px;
+	width: 263px;
+}
+.product_table_wrap .product .a_wrap_n{
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 4px;
+}
+.product_table_wrap .product .a_wrap_p{
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.product_table_wrap .product a{
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+}
+.product_table_wrap .product a.product_name{
+	font-size: 16px;
+	color: #333333;
+}
+.product_table_wrap .product a.product_price{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	color: #999999;
+}
+.product_table_wrap .product a .sale{
+	color: #fc411d;
+	margin-left: 10px;
+	display: inline-block;
+}
+/*			Load 		*/
+.load_wrap {
+	margin-top: 30px;
+	margin-bottom: 55px;
+	padding: 0;
+	text-align: center;
+}
+.load_wrap a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+/*			Subscribe 		*/
+.subscribe_wrap{
+	background: url(../img/bg.png);
+	height: 288px;
+	padding: 0;
+	opacity: 0.8;
+}
+.subscribe_wrap .subscribe{
+	color: #4b687b;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	font-size: 12px;
+	padding-top: 65px;
+	text-align: center;
+	display: block;
+}
+.subscribe_wrap .title{
+	color: #fff;
+	font-family: 'Playfair Display', sans-serif;
+	text-align: center;
+	font-size: 38px;
+	font-weight: 300;
+	margin-top: 15px;
+}
+.subscribe_wrap .subscr_form {
+	text-align: center;
+}
+.subscribe_wrap form{
+	margin-top: 20px;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	border:1px solid #fff;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	padding: 11px 1px;
+	width: 300px;
+}
+.subscribe_wrap form input{
+	background-color: transparent;
+	width: 226px;
+	height: 25px;
+	border: none;
+	color: #fff;
+	margin-left: 12px;
+}
+.subscribe_wrap form input:focus{
+	outline: none;
+}
+.subscribe_wrap form input:placeholder{
+	color: #fff;
+}
+::-webkit-input-placeholder {
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+}
+.subscribe_wrap form button{
+	background-color: transparent;
+	margin-left: 10px;
+	border: none;
+}
+.subscribe_wrap form button img:hover{
+	cursor: pointer;
+}
+/*			Footer 		*/
+.footer{
+	margin-bottom: 20px;
+}
+.footer .main_menu_wrap .navigation_wrap{
+	text-align: center;
+}
+.footer .main_menu_wrap .navigation_wrap ul li.Home a{
+	margin-left: 10px;
+}
+.footer .main_menu_wrap .navigation_wrap ul li.About a{
+	margin-left: -17px;
+}
+.footer .main_menu_wrap .navigation_wrap ul li a{
+	color: #333333;
+}
+.footer .copyright {
+	display: inline-block;
+}
+.footer .copyright p{
+	color: #999;
+	font-size: 11.5px;
+	margin-left: 23px;
+	margin-right: 10px;
+	float: left;
+	padding-top: 1px;
+	letter-spacing: 1.4px;
+}
+
+/*	Viacheslav Kvaratskheliia | vk.com/slavajamm | songslava@gmail.com | Thank you for attention! 	*/
